@@ -1,0 +1,299 @@
+/* file import all SCSS files  */ /* To add the variables*/
+/* To set Responsive web design */
+/* To add the functions that we will reuse*/
+/* Main div */
+.main {
+  margin: 2rem 3rem 3rem 7.5rem;
+  border: 0.031rem solid #eaeaea;
+  width: 81rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: auto;
+}
+
+body {
+  background-color: #fafafa;
+  font: normal normal Nunito Sans;
+  letter-spacing: 0rem;
+}
+
+/* Second Div CSS */
+.margin-t {
+  /* Text margin top */
+  margin-top: 6.111rem;
+}
+
+.btn {
+  /* Button */
+  height: 3.5rem;
+  width: 13rem;
+  text-align: left;
+  font: normal normal 600 1.438rem/1.938rem Nunito Sans;
+  letter-spacing: 0rem;
+  border-radius: 2rem;
+  opacity: 1;
+  text-align: center;
+  box-shadow: rgb(38, 57, 77) 0rem 1.25rem 1.875rem -0.625rem;
+}
+
+.img-div {
+  /* Image background div */
+  background-image: url(/Images/Maskdivbag.png);
+  background-repeat: no-repeat;
+  height: 29.4rem;
+  opacity: 1;
+}
+
+.mar-l-6 {
+  margin-left: 6.5rem;
+}
+
+/* Wave Div */
+.wave {
+  margin: -7.5rem 0rem 0rem 0rem;
+}
+
+/* Third Div CSS */
+.third-div {
+  opacity: 1;
+  height: 44rem;
+  background: rgba(242, 244, 246, 0.5);
+}
+
+.cards {
+  /* Cards info CSS*/
+  width: 18.25rem;
+  height: 20rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 1.188rem;
+  opacity: 1;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.313rem 0.938rem;
+}
+
+/* Color div */
+.color {
+  background: rgba(242, 244, 246, 0.5);
+  height: 9rem;
+  color: #f2f4f6;
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+/* Fourth Div CSS*/
+.fourth-div {
+  height: 8rem;
+  background: rgba(242, 244, 246, 0.5);
+}
+
+/* Fifth Div CSS */
+.fifth-div {
+  margin-top: -13.7rem;
+}
+
+.card-height {
+  height: 32rem;
+}
+
+.artwork-3 {
+  height: 11.7rem;
+}
+
+/* Sixth Div CSS */
+.sixth-div {
+  height: 73rem;
+  margin-top: 8.625rem;
+}
+
+/* Seventh Div CSS*/
+.seven-div {
+  margin-top: 11.813rem;
+}
+
+.baground-div {
+  background: #f8fafc 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2.625rem;
+  opacity: 1;
+  height: 26rem;
+  margin: 4.75rem 7.75rem 0rem 3.688rem;
+  width: 68.563rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.star {
+  height: 4rem;
+  width: 3.938rem;
+  margin: 0rem 0rem 0rem 2.688rem;
+}
+
+.arrow {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 0.188rem 0.375rem rgba(0, 0, 0, 0.1607843137);
+  border-radius: 4.5rem;
+  opacity: 1;
+  margin: 5rem 0rem 0rem 2.5rem;
+}
+
+.upper-div {
+  width: 68.563rem;
+  margin: 4rem 0rem 0rem 3.8rem;
+}
+
+.card {
+  width: 18rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.1607843137);
+  border-radius: 1.875rem;
+  opacity: 1;
+}
+
+.p {
+  font-size: 0.813rem;
+}
+
+/* Eight Div CSS */
+.eight-div {
+  margin-top: 18.625rem;
+  opacity: 1;
+  height: 35rem;
+}
+
+.eight-img-div {
+  margin-top: 8.875rem;
+}
+
+/* Footer CSS */
+.footer-height {
+  height: 22.75rem;
+  margin-top: 1.5rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Tablet Responsive View CSS */
+@media (max-width: 780px) {
+  html {
+    font-size: 68%;
+  }
+  .main {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+  a {
+    padding: 0rem 3rem 0rem 3rem;
+  }
+  .wave {
+    margin-top: -66px;
+    padding: 0%;
+  }
+}
+/* phone Responsive View CSS */
+@media (max-width: 576px) {
+  html {
+    font-size: 34%;
+  }
+  .nav-item {
+    margin: 0%;
+    padding: 0%;
+  }
+  nav {
+    align-items: flex-end;
+    font-weight: bolder;
+    height: 5rem;
+  }
+  a {
+    font-weight: lighter;
+    font-size: 10px;
+    padding-top: 2px;
+  }
+  .nav-img {
+    height: 5rem;
+    display: inline-block;
+    align-items: flex-start;
+  }
+  .nav-div {
+    display: flex;
+    height: 17.5rem;
+    border-bottom: 2px solid gray;
+  }
+  .wave {
+    margin-top: 0px;
+    margin: 0%;
+    padding: 0%;
+  }
+  .img-div {
+    background-size: contain;
+    margin-left: 30rem;
+  }
+  .seven-div {
+    margin-top: 25rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+  a {
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .wave {
+    margin: 0%;
+  }
+  .main {
+    margin: 2rem 2rem 2rem 2.5rem;
+  }
+  a {
+    margin-left: 2rem;
+  }
+  .upper-div {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .baground-div {
+    margin: 0%;
+  }
+}
+/* Tablet to phone */
+@media screen and (max-width: 780px) and (min-width: 576px) {
+  html {
+    font-size: 52%;
+  }
+  .wave {
+    margin: 0%;
+  }
+  .img-div {
+    background-size: cover;
+  }
+  .main {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+  .baground-div {
+    margin: 0%;
+  }
+  .card {
+    width: 18rem;
+  }
+  .arrow {
+    display: none;
+  }
+  .upper-div {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  a {
+    margin-left: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,296 @@
+/* file import all SCSS files  */
+@import "variables";
+@import "mixins";
+
+/* Main div */
+
+.main {
+    @include main-div();
+}
+
+body {
+    background-color: $primary;
+    font: normal normal Nunito Sans;
+    letter-spacing: 0rem;
+}
+
+/* Second Div CSS */
+
+.margin-t {
+    /* Text margin top */
+    margin-top: $margin-top-6;
+}
+
+.btn {
+    /* Button */
+    @include button();
+}
+
+.img-div {
+    /* Image background div */
+    background-image: url(/Images/Maskdivbag.png);
+    background-repeat: no-repeat;
+    height: 29.4rem;
+    opacity: 1;
+}
+
+.mar-l-6 {
+    margin-left: 6.5rem;
+}
+
+/* Wave Div */
+.wave {
+   
+    margin: -7.5rem 0rem 0rem 0rem;
+ 
+}
+// .b-wave{
+//      margin: 0rem -0.8rem 0rem -0.8rem;
+// }
+/* Third Div CSS */
+.third-div {
+    opacity: 1;
+    height: 44rem;
+    background: rgba(242, 244, 246, 0.5);
+    // margin: 0rem -0.8rem 0rem -0.8rem;
+}
+
+.cards {
+    /* Cards info CSS*/
+    @include Cards();
+}
+
+/* Color div */
+
+.color {
+    background: rgba(242, 244, 246, 0.5);
+    height: 9rem;
+    color: #f2f4f6;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+/* Fourth Div CSS*/
+.fourth-div {
+    height: 8rem;
+    background: rgba(242, 244, 246, 0.5);
+    
+}
+
+/* Fifth Div CSS */
+.fifth-div {
+    margin-top: -13.7rem;
+}
+
+.card-height {
+    // art work cards height
+    height: $height;
+}
+
+.artwork-3 {
+    height: 11.7rem;
+}
+
+/* Sixth Div CSS */
+.sixth-div {
+    height: 73rem;
+    margin-top: 8.625rem;
+}
+
+/* Seventh Div CSS*/
+
+.seven-div {
+    margin-top: 11.813rem;
+}
+
+.baground-div {
+    background: #f8fafc 0% 0% no-repeat padding-box;
+    box-shadow: 0rem 1rem 3rem #00000029;
+    border-radius: 2.625rem;
+    opacity: 1;
+    height: 26rem;
+    margin: 4.75rem 7.75rem 0rem 3.688rem;
+    width: 68.563rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+}
+
+.star {
+    //Star image
+    height: 4rem;
+    width: 3.938rem;
+    margin: 0rem 0rem 0rem 2.688rem;
+}
+
+.arrow {
+    @include arrow-btn();
+}
+
+.upper-div {
+    width: 68.563rem;
+    margin: 4rem 0rem 0rem 3.8rem;
+}
+
+.card {
+    width: 18rem;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0rem 1rem 3rem #00000029;
+    border-radius: 1.875rem;
+    opacity: 1;
+}
+
+.p {
+    font-size: 0.813rem;
+}
+
+/* Eight Div CSS */
+
+.eight-div {
+    margin-top: 18.625rem;
+    opacity: 1;
+    height: 35rem;
+}
+
+.eight-img-div {
+    margin-top: 8.875rem;
+}
+
+/* Footer CSS */
+.footer-height {
+    height: 22.75rem;
+    margin-top: 1.5rem;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/* Tablet Responsive View CSS */
+@media (max-width: $tablet) {
+    html {
+        font-size: 68%;
+    }
+    .main {
+        margin: 2rem 2rem 2rem 2rem;
+    }
+    a {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+    .wave {
+        margin-top: -66px;
+        padding: 0%;
+    }
+}
+
+/* phone Responsive View CSS */
+@media (max-width: $phone) {
+    html {
+        font-size: 34%;
+    }
+    
+    .nav-item {
+        margin: 0%;
+        padding: 0%;
+    }
+    nav {
+        
+        align-items: flex-end;
+        font-weight: bolder;
+        height: 5rem;
+       
+    }
+    a {
+        font-weight: lighter;
+        font-size: 10px;
+        padding-top: 2px;
+    }
+    .nav-img {
+        height: 5rem;
+        display: inline-block;
+        align-items: flex-start;
+    }
+    .nav-div {
+        display: flex;
+        height: 17.5rem;
+        border-bottom: 2px solid gray;
+    }
+    .wave {
+        margin-top: 0px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .img-div {
+        background-size: contain;
+        margin-left: 30rem;
+    }
+
+    .seven-div {
+        margin-top: 25rem;
+    }
+   
+}
+
+@media screen and (max-width: $laptop) {
+
+    .main {
+        margin: 2rem 2rem 2rem 2rem;
+    }
+    a {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: $desktop) {
+   
+    .wave{
+        margin: 0%;
+    }
+    .main {
+        margin: 2rem 2rem 2rem 2.5rem;
+    }
+    a {
+        margin-left: 2rem;
+    }
+    .upper-div {
+        width: fit-content;
+    }
+    .baground-div {
+        margin: 0%;
+    }
+}
+
+/* Tablet to phone */
+@media screen and (max-width: $tablet) and (min-width: $phone) {
+    html {
+        font-size: 52%;
+      
+    }
+    .wave {
+        margin: 0%;
+    }
+    .img-div {
+        background-size: cover;
+    }
+    .main {
+        margin: 2rem 2rem 2rem 2rem;
+    }
+    .baground-div {
+        margin: 0%;
+    }
+    .card {
+        width: 18rem;
+    }
+    .arrow {
+        display: none;
+    }
+    .upper-div {
+        width: fit-content;
+    }
+    a {
+        margin-left: 1rem;
+    }
+}
+
